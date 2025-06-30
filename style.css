@@ -1,6 +1,7 @@
 .para {
 color:black;
 background-color: #f2f2f2;
+width: 700px;
 border: black;
 padding: 5px;
 border-color: black;
@@ -13,8 +14,14 @@ font-weight: 400;
 .main2 {
     color: yellowgreen ;
     border: 5px solid black;
-    border-left: 5px solid red;
-    border-right: 5px solid yellow;
-    border-top: 5px solid blue;
-    border-bottom: 5px solid green;
+    width: 300px;
+    height: 150px;
+   align-items: center;
+   background-color: black;
+
+}
+.main2 :hover {
+
+    box-shadow: 0 0 20px cyan, 0 0 40px cyan, 0 0 60px cyan;
+
 }
